@@ -40,7 +40,7 @@ func buildTree(l, r int) []*TreeNode {
 			return []*TreeNode{nil}
 		} else {
 			return []*TreeNode{
-				&TreeNode{
+				{
 					Val: l,
 				},
 			}
